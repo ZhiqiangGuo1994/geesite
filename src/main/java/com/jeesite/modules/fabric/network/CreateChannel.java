@@ -40,7 +40,7 @@ import com.jeesite.modules.fabric.util.Util;
 
 public class CreateChannel {
 
-	public static void main(String[] args) {
+	public void createChannel(){
 		try {
 			CryptoSuite.Factory.getCryptoSuite();
 			Util.cleanUp();

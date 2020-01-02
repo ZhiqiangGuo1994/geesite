@@ -43,7 +43,7 @@ import com.jeesite.modules.fabric.util.Util;
 
 public class DeployInstantiateChaincode {
 
-	public static void main(String[] args) {
+	public void deployInstantiateChaincode() {
 		try {
 			CryptoSuite cryptoSuite = CryptoSuite.Factory.getCryptoSuite();
 

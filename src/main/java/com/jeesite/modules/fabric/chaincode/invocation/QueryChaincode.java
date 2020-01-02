@@ -44,7 +44,7 @@ public class QueryChaincode {
 	private static final byte[] EXPECTED_EVENT_DATA = "!".getBytes(UTF_8);
 	private static final String EXPECTED_EVENT_NAME = "event";
 
-	public static void main(String args[]) {
+	public void queryChaincode() {
 		try {
             Util.cleanUp();
 			String caUrl = FabricConfig.CA_ORG1_URL;
